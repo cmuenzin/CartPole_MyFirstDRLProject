@@ -1,1 +1,17 @@
-/__pycache__
+# Ignoriere virtuelle Umgebungen
+drl_env/
+.env/
+env/
+venv/
+
+# Python Bytecode
+__pycache__/
+*.py[cod]
+
+# Logfiles & Modelle
+*.log
+*.pth
+
+# Sonstiges
+*.DS_Store
+.ipynb_checkpoints/
