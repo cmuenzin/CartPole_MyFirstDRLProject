@@ -4,6 +4,8 @@ import numpy as np
 from dqn import DQN, ReplayBuffer
 from utils import plot_rewards, save_model, load_model
 
+# Cart Pole DRL Project
+
 # Hyperparameter
 ENV_NAME = 'CartPole-v1'
 GAMMA = 0.99
